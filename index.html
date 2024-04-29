@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Realm of Dragons</title>
+        <link rel="stylesheet" href="./styles.css" />        
+    </head>
+    <body>
+        <div id="game">
+            <div id="stats">
+                <span class="stat">Level: <strong><span id="levelText">1</span></strong></span>
+                <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+                <span class="stat">Health: <strong><span id="healthText">100 / 100</span></strong></span>
+                <span class="stat">Stamina: <strong><span id="staminaText">100 / 100</span></strong></span>
+                <span class="stat">Power: <strong><span id="atkText">5</span></strong></span>
+                <span class="stat">Toughness: <strong><span id="defText">0</span></strong></span>
+                <span class="stat">Potions: <strong><span id="potionText">0</span></strong></span>
+                <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+            </div>
+            <div id="controls">
+                <button id="button1" class="btn btn-dark">Go to town</button>
+                <button id="button2" class="btn btn-dark">Go towards the mountains</button>
+                <button id="button3" class="btn btn-dark">Go into the forest</button>
+                <button id="button4" class="btn btn-dark">Go towards the ocean</button>
+                <button id="button5" class="btn btn-dark">Search the Meadows</button>
+            </div>
+            <div id="monsterStats">
+                <span class="stat">Monster Name: <strong><span id="monsterName" ></span></strong></span>
+                <span class="stat">Level: <strong><span id="monsterLevel"></span></strong></span>
+                <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+            </div>
+            <div id="text">
+                
+            </div>
+        </div>
+        <div id="intro">
+            <div id="prolouge">
+                <p style="text-align: center;">Welcome to The Realm of Dragons.</p>
+                <p>
+                    A text-based adventure game where you take the role of a character that has been spirited away to a realm full of dragons and monsters.
+                    In order to get back, you must find the key and the portal and defeat the dragons that guard them.
+                </p>
+                <p style="text-align: center;">Are you ready?</p>
+            </div>
+            <div id="start">
+                <button id="startButton">START</button>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
